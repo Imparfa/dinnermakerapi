@@ -1,14 +1,62 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  { "id": 0, "name": "salade", 
+    "category": {
+      "value": "starter"
+    }
+  },
+  { "id": 3, "name": "tapenade",
+    "category":{
+      "value": "starter"
+    }
+  },
+  { "id": 6, "name": "tacos",
+    "category": {
+      "value":"main-course"
+    }
+  },
+  { "id": 9, "name": "mousse au chocolat",
+    "category": {
+      "value": "dessert"
+    }
+  },
+  { "id": 1, "name": "oeufs mimosa",
+    "category": {
+      "value": "starter"
+    }
+  },
+  { "id": 8, "name": "tarte",
+    "category": {
+      "value": "dessert"
+    }
+  },
+  { "id": 2, "name": "gaspacio",
+    "category": {
+      "value": "starter"
+      }
+  },
+  { "id": 5, "name": "kebab",
+    "category": {
+      "value": "main-course"
+      }
+  },
+  { "id": 7, "name": "purée de pattate",
+    "category": {
+      "value": "main-course"
+      }
+  },
+  { "id": 10, "name": "croissant",
+    "category": {
+      "value": "dessert"
+    }
+  },
+  { "id": 11, "name": "bounty",
+    "category": {
+      "value": "dessert"
+    }
+  },
+  { "id" :4, "name": "steak",
+    "category": {
+      "value": "main-course"
+    }
   }
-}
+]
